@@ -204,3 +204,86 @@ footer {
     font-weight: lighter;
     color: gold;
 }
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .logo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-text {
+        font-size: 0.8rem;
+    }
+
+    .social-media {
+        gap: 5px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .main-content {
+        gap: 10px;
+    }
+
+    .cards {
+        width: 180px;
+        height: 370px;
+    }
+
+    .buttons {
+        width: 80%;
+    }
+
+    .modal-content {
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .header, .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo-img {
+        width: 30px;
+    }
+
+    .logo-text {
+        font-size: 0.6rem;
+    }
+
+    i {
+        font-size: 1rem;
+    }
+
+    .main-container {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .cards {
+        width: 150px;
+        height: 300px;
+    }
+
+    .buttons {
+        width: 100%;
+    }
+
+    button {
+        width: 60px;
+        height: 20px;
+        font-size: 0.8rem;
+    }
+}
